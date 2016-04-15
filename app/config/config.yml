@@ -6,6 +6,7 @@
 # such as the security component and the dependency injection services
 imports:
     - { resource: parameters.yml }
+    - { resource: parameters.php }
     - { resource: security.yml }
     - { resource: services.yml }
 
